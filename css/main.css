@@ -51,4 +51,124 @@ button {
   width: 434px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
+}
+
+.head {
+  background-color: #F6F6F6;
+}
+
+.container_head {
+  padding-top: 36px;
+  padding-bottom: 98px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #252B42;
+  font-family: Martel;
+  margin-bottom: 96px;
+}
+
+.menu_item {
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  font-family: Open Sans;
+  color: #737373;
+}
+
+.container {
+  padding: 80px 0px 80px 0px;
+}
+
+.hero_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: Martel;
+  width: 327px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.hero_text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: Open Sans;
+  color: #737373;
+  width: 270px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.buttons_hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero_button_get {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  margin-bottom: 25px;
+  width: 182px;
+  padding: 10px 36px;
+  background-color: #784F33;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+}
+
+.hero_button_learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 1px solid #784F33;
+  width: 182px;
+  padding: 10px 36px;
+  background-color: transparent;
+  color: #784F33;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }/*# sourceMappingURL=main.css.map */

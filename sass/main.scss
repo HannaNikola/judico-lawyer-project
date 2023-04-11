@@ -1,6 +1,16 @@
+// utils
+
+@import "./utils/body";
+@import "./utils/conteiner";
+@import "./utils/mixin";
+@import "./utils/variables";
+
+
+
 
 // components
 @import "./components/header";
+@import "./components/hero";
 @import "./components/services";
 @import "./components/about";
 @import "./components/clients";
@@ -8,11 +18,7 @@
 @import "./components/content";
 @import "./components/footer";
 
-// utils
 
 
-@import "./utils/body";
-@import "./utils/variables";
-@import "./utils/mixin";
-@import "./utils/conteiner";
+
 
