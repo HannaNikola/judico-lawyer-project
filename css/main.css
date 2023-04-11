@@ -1,7 +1,8 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 h1,
@@ -24,11 +25,6 @@ ul {
   list-style: none;
 }
 
-.link {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -43,18 +39,16 @@ ul {
   margin: -1px;
 }
 
-.container {
-  width: 434px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-@media screen and (min-width: 1440px) {
-  .container {
-    width: 1050;
-  }
+a {
+  text-decoration: none;
 }
 
-.title {
-  color: red;
+button {
+  border: none;
+}
+
+.container {
+  width: 434px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

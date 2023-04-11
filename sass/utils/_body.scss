@@ -21,13 +21,8 @@ ul {
     margin: 0;
 
 }
-.list {
+.list{
     list-style: none;
-}
-
-.link {
-    text-decoration: none;
-    color: #FFFFFF;
 }
 .visually-hidden {
     position: absolute;
@@ -39,4 +34,11 @@ ul {
     padding: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    margin: -1px;}
+    margin: -1px;
+}
+a{
+    text-decoration: none;
+}
+button {
+ border: none;
+}
