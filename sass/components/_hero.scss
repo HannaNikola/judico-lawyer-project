@@ -39,6 +39,12 @@
     font-family: Open Sans;
     @include font(700, 14px, 2);
     text-align: center;
+    &:focus,
+        &:hover {
+            background-color: $white-background;
+            color: $button-broun-color ;
+            border: 1px solid $button-broun-color;
+        }
     
 
 
@@ -49,14 +55,19 @@
         border-radius: 25px;
         border: 1px solid $button-broun-color;
 
-        width: 182px;
+        width: 155px;
         padding: 10px 36px;
-        background-color: transparent ;
+        background-color: $white-background ;
         color: $brown-accent-color ;
         font-family: Open Sans;
         @include font(700, 14px, 2);
         text-align: center;
         justify-content: center;
+        &:focus,
+        &:hover {
+            background-color:$button-broun-color ;
+            color:$white-text-color ;
+        }
 
 
 

@@ -47,6 +47,10 @@ button {
   border: none;
 }
 
+.title {
+  @in;
+}
+
 .container {
   width: 434px;
   padding: 0 15px 0 15px;
@@ -151,6 +155,11 @@ button {
   line-height: 2;
   text-align: center;
 }
+.hero_button_get:focus, .hero_button_get:hover {
+  background-color: #FFFFFF;
+  color: #784F33;
+  border: 1px solid #784F33;
+}
 
 .hero_button_learn {
   display: -webkit-box;
@@ -159,9 +168,9 @@ button {
   cursor: pointer;
   border-radius: 25px;
   border: 1px solid #784F33;
-  width: 182px;
+  width: 155px;
   padding: 10px 36px;
-  background-color: transparent;
+  background-color: #FFFFFF;
   color: #784F33;
   font-family: Open Sans;
   font-weight: 700;
@@ -171,4 +180,13 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.hero_button_learn:focus, .hero_button_learn:hover {
+  background-color: #784F33;
+  color: #FFFFFF;
+}
+
+.conteiner_service {
+  padding-top: 148px;
+  padding-bottom: 114px;
 }/*# sourceMappingURL=main.css.map */

@@ -42,3 +42,8 @@ a{
 button {
  border: none;
 }
+.title {
+    font-family: Martel;
+    color: $text-color;
+    @include font(700, 40px, 1.2);
+}
