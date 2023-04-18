@@ -43,7 +43,17 @@ button {
  border: none;
 }
 .title {
+    
     font-family: Martel;
-    color: $text-color;
-    @include font(700, 40px, 1.2);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #252B42;
+}
+body {
+font-family: Open Sans;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+color: #737373;
 }

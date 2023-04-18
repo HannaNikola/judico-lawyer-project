@@ -1,6 +1,16 @@
 .container {
-    width: 434px;
+width: 100%;
     padding: 0 15px 0 15px;
     margin: 0 auto;
 
+    @media screen and (min-width:445px) {
+        width: 445px;
+    }
+@media screen and(min-width:798px) {
+    width: 798px;
+}
+    @media screen and(min-width:1470px) {
+        width: 1080px;
+        background-color: red;
+    }
 }

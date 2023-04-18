@@ -1,8 +1,15 @@
-.conteiner_service{
+.our_services{
+    background-color:$white-text-color;
     padding-top: 148px;
-    padding-bottom: 114px;
+        padding-bottom: 114px;
 }
-.texte_service{
-    font-family: Open Sans;
-@include font(400, 14px, 1.4);
+
+.title_service{
+    margin-bottom: 10px;
+}
+.texte_service {
+    
+   margin-bottom: 45px;
+   width: 205px;
+   
 }

@@ -1,10 +1,9 @@
 .head{
-    background-color:$main-color ;
-}
-.container_head{
+    background-color:transparent;
     padding-top: 36px;
-    padding-bottom: 98px;
+        padding-bottom: 98px;
 }
+
 
 .logo {
     @include font(700, 24px, 1.3);
