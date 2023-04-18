@@ -3,25 +3,18 @@ width: 100%;
 background-image: url(../../images/mobail/hero-mobil-1x.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-
-
-
-margin-top: -100px;
 }
 
 .hero_title{
     padding-top: 80px;
-        
-     width: 327px;
     text-align: center;
-    margin: auto;
     margin-bottom: 40px;
 }
 .hero_text{
     @include font(500, 20px, 1.5);
     font-family: Open Sans;
     color:$light-text-color;
-    width: 270px;
+     width: 270px;
     text-align: center;
     margin: auto;
     margin-bottom: 40px;

@@ -1,0 +1,45 @@
+.about_as {
+    background-color:$second-background ;
+     padding-top: 100px;
+     padding-bottom: 207px;
+     
+}
+
+.title_about{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about_text{
+    width: 206px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+ .secon_title_about{
+text-align: center;
+margin-bottom: 10px;
+}
+.second_text_about{
+    margin-bottom: 50px;
+}
+
+.icon_about{
+    fill:$svg-fill;
+    display: flex;
+}
+
+.wrap_text_about{
+    display: flex;
+    flex-direction: column;
+    width: 273px;
+}
+.text_icon{
+    @include font(700, 16, 1.5);
+    color:$text-color;
+   
+}
+.about_picture{
+    width: 330px;
+    margin-bottom: 72px;
+    
+}
