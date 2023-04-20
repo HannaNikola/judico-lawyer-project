@@ -280,4 +280,24 @@ body {
 .about_picture {
   width: 330px;
   margin-bottom: 72px;
+}
+
+.world_content {
+  background-color: #252B42;
+  padding-top: 125px;
+  padding-bottom: 100px;
+}
+
+.title_content {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.text_content {
+  color: #FFFFFF;
+  margin-bottom: 130px;
+}
+
+.content_img {
+  width: 310px;
 }/*# sourceMappingURL=main.css.map */
