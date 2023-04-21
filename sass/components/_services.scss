@@ -13,10 +13,68 @@
    width: 205px;
    
 }
+.border_card{
+    border: 1px solid $light-text-color;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    
+    &:last-of-type{
+        margin-bottom: 50px;
+    }
+}
 .icon_service{
-    //  border-radius: 50%;
-    //  border: 1px solid transparent;
-    // padding: 25px;
-    background-color: $light-blue-background;
-    fill:black;
+   
+      border-radius: 50%;
+      border: 1px solid transparent;
+     padding: 20px;
+     background-color:$light-blue-background;
+    fill:$svg-white;
+    margin-right: 15px;
+    
+}
+
+// buttons
+.button_servises{
+cursor: pointer;
+border-radius: 25px;
+border: 1px solid transparent;
+margin-bottom: 30px;
+
+width: 182px;
+padding: 10px 36px;
+background-color:$blue-button;
+color:$white-text-color ;
+font-family: Open Sans;
+@include font(700, 14px, 2);
+text-align: center;
+
+&:focus,
+&:hover {
+    background-color: $white-background;
+    color:$blue-button ;
+    border: 1px solid $blue-button;
+}
+}
+.second_button_servises{
+    display: flex;
+        cursor: pointer;
+        border-radius: 25px;
+        border: 1px solid $blue-button;
+        
+    
+        width: 155px;
+        padding: 10px 36px;
+        background-color: $white-background ;
+        color: $blue-button ;
+        font-family: Open Sans;
+        @include font(700, 14px, 2);
+        text-align: center;
+        justify-content: center;
+    
+        &:focus,
+        &:hover {
+            background-color: $blue-button ;
+            color: $white-text-color ;
+        }
 }

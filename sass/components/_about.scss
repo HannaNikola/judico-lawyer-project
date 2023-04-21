@@ -28,18 +28,35 @@ margin-bottom: 10px;
     display: flex;
 }
 
-.wrap_text_about{
+
+.list_about{
+    margin-bottom: 30px;
+}
+.wrap_svg_about{
     display: flex;
-    flex-direction: column;
-    width: 273px;
+    align-items: center;
 }
 .text_icon{
     @include font(700, 16, 1.5);
     color:$text-color;
+    margin-bottom: 5px;
    
+}
+.text_icon_second{
+    margin-left: 50px;
 }
 .about_picture{
     width: 330px;
     margin-bottom: 72px;
     
+}
+
+.icon_about{
+    display: flex;
+    align-items: center;
+    margin-right:20px ;
+}
+.wrap_text_about{
+    display: flex;
+    flex-direction: column ;
 }
