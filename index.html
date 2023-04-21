@@ -216,30 +216,35 @@
         </div>
         <h2 class="title title_conect">Request A Free Consultation</h2>
         <form action="">
-            <div>
-          <label for="name" >Name</label>
-          <input type="mail" id="name" />
+            <div class="input_wrap">
+              <label class="label_wrap" for="name">Name</label>
+          <input  class="input_conect" type="mail" id="name" placeholder="Full Name" required/>
+          
         </div>
-        <div>
-          <label for="mail">Email <span>*</span></label>
-          <input type="email" id="mail"/>
+        <div class="input_wrap">
+          <label class="label_wrap" for="mail">Email <span>*</span></label>
+          <input class="input_conect" type="email" id="mail" placeholder="example@gmail.com" required/>
+          
         </div>
-        <div>
-          <label for="Department">Department <span>*</span></label>
-        <select name="Department" id="Department">
+        <div class="input_wrap">
+          <label class="label_wrap" for="Department">Department <span>*</span></label>
+        <select class="input_conect"name="Department" id="Department" required>
+          <option value="Please Select">Please Select</option>
         <option value="London">London</option>
         <option value="Dubai">Dubai</option>
         <option value="New-York">New-York</option>
         <option value="Singapore">Singapore</option>
         </select>
         </div>
-        <label for="date">Data</label>
-        <input type="date" id="date">
-        <div>
-          <label for="time"></label>
-          <input type="time" id="time"/>
+        <div class="input_wrap">
+        <label class="label_wrap" for="date">Data</label>
+        <input class="input_conect" type="date" id="date" required>
         </div>
-          <button type="submit">Book Appointment</button>
+        <div class="input_wrap">
+          <label class="label_wrap" for="time">Time</label>
+          <input class="input_conect"type="time" id="time" required/>
+        </div>
+          <button class="button_conect" type="submit">Book Appointment</button>
         </form>
       </div>
     </section>

@@ -1,6 +1,6 @@
 .conection{
     background-color:$white-background ;
-    padding-bottom: 142px;
+    padding-bottom: 127px;
 }
 .connection_img {
     width: 330px;
@@ -11,6 +11,45 @@
 }
 
 .title_conect {
-    width: 327px;
+    width: 267px;
     margin-bottom: 40px;
+}
+// form  + lable
+.input_conect{
+    border: none;
+    border: 1px solid #BDBDBD;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+.input_wrap {
+    margin-bottom: 12px;
+
+    &:last-of-type{
+        margin-bottom: 40px;
+    }
+}
+.label_wrap{
+   @include font(700, 14, 1.7) ;
+   color:$text-color ;
+   margin-bottom: 10px;
+}
+.button_conect{
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 89px;
+    background-color:$button-broun-color ;
+    color:$white-text-color ;
+    @include font (700, 14px, 2);
+
+    &:hover,
+    &:focus{
+        background-color: transparent;
+        border: 1px solid $button-broun-color;
+        color:$brown-accent-color;
+    }
 }
