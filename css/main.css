@@ -368,6 +368,24 @@ body {
           flex-direction: column;
 }
 
+.clients_say {
+  background-color: #295C7A;
+  padding-top: 69px;
+  padding-bottom: 164px;
+}
+
+.title_clients {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text_clients {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #FFFFFF;
+}
+
 .world_content {
   background-color: #252B42;
   padding-top: 125px;
