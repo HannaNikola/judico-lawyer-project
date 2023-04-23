@@ -224,6 +224,7 @@ body {
   padding: 20px;
   width: 100%;
   margin-bottom: 30px;
+  background-color: #FAFAFA;
 }
 .border_card:last-of-type {
   margin-bottom: 50px;
@@ -384,6 +385,101 @@ body {
   text-align: center;
   margin-bottom: 60px;
   color: #FFFFFF;
+}
+
+.cards_client {
+  border: 1px solid transparent;
+  background-color: #FFFFFF;
+  padding: 30px 82px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.name_clients {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #252B42;
+  margin-bottom: 5px;
+}
+
+.name_job {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.wrap_stars {
+  margin-bottom: 15px;
+}
+
+.icon-star {
+  fill: #F3CD03;
+}
+
+.client_img {
+  position: absolute;
+  background-color: transparent;
+  top: 28px;
+  left: -25px;
+  border-radius: 50%;
+}
+
+.our_lawyer {
+  background-color: #FAFAFA;
+  padding-top: 75px;
+  padding-bottom: 63px;
+}
+
+.title_lawyer {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text_lawyer {
+  margin: auto;
+  text-align: center;
+  width: 238px;
+  margin-bottom: 45px;
+}
+
+.lowyer_item {
+  border: 1px solid transparent;
+  padding: 30px 95px;
+  margin-bottom: 30px;
+}
+
+.lowyer_img {
+  border: 50%;
+  margin-bottom: 5px;
+  margin: auto;
+}
+
+.lowyer_job {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #D0A144;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.lowyer_name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #252B42;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.lowyer_text_abov {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  width: 136px;
+  margin: auto;
 }
 
 .world_content {

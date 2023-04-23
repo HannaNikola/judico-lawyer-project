@@ -1,0 +1,44 @@
+.our_lawyer{
+    background-color:$second-background ;
+    padding-top: 75px;
+    padding-bottom: 63px;
+}
+.title_lawyer{
+   text-align: center;
+    margin-bottom: 10px;
+}
+.text_lawyer{
+    margin: auto;
+    text-align: center;
+    width: 238px;
+    margin-bottom: 45px;
+}
+.lowyer_item{
+    border: 1px solid transparent;
+    padding: 30px 95px;
+    margin-bottom: 30px;
+}
+.lowyer_img {
+    border: 50%;
+    margin-bottom: 5px;
+    margin: auto;
+    
+}
+.lowyer_job{
+    @include font (700, 14px, 1.7);
+    color:$primery-accent-color ;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.lowyer_name{
+@include font (700, 16px, 1.5);
+color:$text-color ;
+text-align: center;
+margin-bottom: 5px;
+}
+.lowyer_text_abov{
+    @include font (400, 14px, 1.4);
+    width: 136px;
+   margin: auto;
+    
+}
