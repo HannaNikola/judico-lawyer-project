@@ -2,25 +2,59 @@
     background-color:transparent;
     padding-top: 36px;
     padding-bottom: 98px;
+    @media screen and (min-width:1050px){
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
 }
 
+.container_head{
+    @media screen and (min-width:1050px){
+        display: flex;
+        align-items: baseline;
+        
+    }
+}
 
 .logo {
     @include font(700, 24px, 1.3);
      color: $text-color ;
     font-family: Martel;
     margin-bottom: 96px;
+    @media screen and (min-width:1050px) {
+            
+            margin-bottom: 0px;
+             margin-right: 147px;
+        }
 
 }
 .menu_item {
    margin-bottom: 30px;
+   @include font(400, 30px, 1.5);
+    font-family: Open Sans;
+    color: $light-text-color;
+   @media screen and (min-width:1050px) {
+        
+        display: flex;
+        @include font(600, 14px, 1.7);
+        margin-bottom: 0px;
+        margin-right: 24px;
+        &:last-of-type {
+        margin-right: 0px;
+        }
+        
+       
+    }
 }
 .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    @include font(400, 30px, 1.5);
-    font-family: Open Sans;
-     color: $light-text-color;
+    @media screen and (min-width:1050px) {
+            width: 1050px;
+    display: flex;
+    flex-direction: row;
+    
+    
+        }
 }

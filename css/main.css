@@ -81,6 +81,23 @@ body {
   padding-top: 36px;
   padding-bottom: 98px;
 }
+@media screen and (min-width: 1050px) {
+  .head {
+    padding-top: 23px;
+    padding-bottom: 23px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .container_head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
 
 .logo {
   font-weight: 700;
@@ -90,9 +107,35 @@ body {
   font-family: Martel;
   margin-bottom: 96px;
 }
+@media screen and (min-width: 1050px) {
+  .logo {
+    margin-bottom: 0px;
+    margin-right: 147px;
+  }
+}
 
 .menu_item {
   margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  font-family: Open Sans;
+  color: #737373;
+}
+@media screen and (min-width: 1050px) {
+  .menu_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 0px;
+    margin-right: 24px;
+  }
+  .menu_item:last-of-type {
+    margin-right: 0px;
+  }
 }
 
 .menu {
@@ -106,11 +149,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 1.5;
-  font-family: Open Sans;
-  color: #737373;
+}
+@media screen and (min-width: 1050px) {
+  .menu {
+    width: 1050px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .hero {
@@ -119,23 +169,56 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 1050px) {
+  .hero {
+    padding-top: 125px;
+    padding-bottom: 190px;
+    padding-left: 195px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .wrap_hero {
+    width: 509px;
+  }
+}
 
 .hero_title {
   padding-top: 80px;
+  font-family: " Martel";
   text-align: center;
   margin-bottom: 40px;
+}
+@media screen and (min-width: 1050px) {
+  .hero_title {
+    font-family: " Martel";
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 1.1;
+    width: 509px;
+    text-align: left;
+    margin-bottom: 35px;
+  }
 }
 
 .hero_text {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  font-family: Open Sans;
+  font-family: " Montserrat";
   color: #737373;
   width: 270px;
   text-align: center;
   margin: auto;
   margin-bottom: 40px;
+}
+@media screen and (min-width: 1050px) {
+  .hero_text {
+    width: 376px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 35px;
+  }
 }
 
 .buttons_hero {
@@ -149,6 +232,20 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 1050px) {
+  .buttons_hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
 .hero_button_get {
@@ -173,6 +270,11 @@ body {
   background-color: #FFFFFF;
   color: #784F33;
   border: 1px solid #784F33;
+}
+@media screen and (min-width: 1050px) {
+  .hero_button_get {
+    margin-right: 10px;
+  }
 }
 
 .hero_button_learn {
@@ -199,7 +301,6 @@ body {
   background-color: #784F33;
   color: #FFFFFF;
 }
-
 .our_services {
   background-color: #FFFFFF;
   padding-top: 148px;
@@ -216,11 +317,13 @@ body {
 }
 
 .border_card {
-  border: 1px solid #737373;
+  border: 1px rgba(0, 0, 0, 0.25);
   padding: 20px;
   width: 100%;
   margin-bottom: 30px;
   background-color: #FAFAFA;
+  -webkit-box-shadow: 0px 5px 10px 4px rgba(34, 60, 80, 0.2);
+          box-shadow: 0px 5px 10px 4px rgba(34, 60, 80, 0.2);
 }
 .border_card:last-of-type {
   margin-bottom: 50px;
