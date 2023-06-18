@@ -2,18 +2,41 @@
     background-color:$second-background ;
      padding-top: 100px;
      padding-bottom: 207px;
+    @media screen and (min-width:1050px){
+        padding-bottom: 100px;
+    }
      
 }
 
 .title_about{
     text-align: center;
     margin-bottom: 10px;
+    @media screen and (min-width:1050px){
+        margin-bottom: 15px;
+    }
 }
 .about_text{
     width: 206px;
     text-align: center;
     margin: auto;
     margin-bottom: 100px;
+    @media screen and (min-width:1050px){
+        width: 468px;
+    }
+}
+.img_wrap_about{
+    @media screen and (min-width:1050px){
+        display: flex;
+    }
+}
+.text_wrap_about{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    @media screen and (min-width:1050px){
+        margin-left: 120px;
+    }
+    
 }
  .secon_title_about{
 text-align: center;
@@ -59,4 +82,5 @@ margin-bottom: 10px;
 .wrap_text_about{
     display: flex;
     flex-direction: column ;
+    
 }

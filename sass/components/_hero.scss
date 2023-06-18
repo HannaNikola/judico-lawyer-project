@@ -1,13 +1,19 @@
 .hero {
 width: 100%;
-background-image: url(../../images/mobail/hero-mobil-1x.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-@media screen and (min-width:1050px){
-    padding-top: 125px;
-    padding-bottom: 190px;
-    padding-left: 195px;
-}
+ background-image: url(../../images/mobail/hero-mobil-1x.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+
+
+@media screen and (min-width:1050px) {
+    background-image: url(../../images/desktop/cover-2x.jpg);
+    height: 770px;
+     padding-top: 125px;
+     padding-bottom: 190px;
+     padding-left: 195px;
+     margin-top: -77px;
+ }
 }
 
 .wrap_hero{

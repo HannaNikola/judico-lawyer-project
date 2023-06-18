@@ -171,9 +171,12 @@ body {
 }
 @media screen and (min-width: 1050px) {
   .hero {
+    background-image: url(../../images/desktop/cover-2x.jpg);
+    height: 770px;
     padding-top: 125px;
     padding-bottom: 190px;
     padding-left: 195px;
+    margin-top: -77px;
   }
 }
 
@@ -306,6 +309,11 @@ body {
   padding-top: 148px;
   padding-bottom: 114px;
 }
+@media screen and (min-width: 1050px) {
+  .our_services {
+    display: none;
+  }
+}
 
 .title_service {
   margin-bottom: 10px;
@@ -398,10 +406,20 @@ body {
   padding-top: 100px;
   padding-bottom: 207px;
 }
+@media screen and (min-width: 1050px) {
+  .about_as {
+    padding-bottom: 100px;
+  }
+}
 
 .title_about {
   text-align: center;
   margin-bottom: 10px;
+}
+@media screen and (min-width: 1050px) {
+  .title_about {
+    margin-bottom: 15px;
+  }
 }
 
 .about_text {
@@ -409,6 +427,35 @@ body {
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
+}
+@media screen and (min-width: 1050px) {
+  .about_text {
+    width: 468px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .img_wrap_about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.text_wrap_about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 325px;
+}
+@media screen and (min-width: 1050px) {
+  .text_wrap_about {
+    margin-left: 120px;
+  }
 }
 
 .secon_title_about {
