@@ -44,7 +44,7 @@
      }
 
 }
-.lowyer_img {
+.lowyer_img{
     display: inline;
     border: 50%;
     margin-bottom: 5px;
@@ -52,6 +52,7 @@
     width: 128px;
     
 }
+
 .lowyer_job{
     @include font (700, 14px, 1.7);
     color:$primery-accent-color ;
