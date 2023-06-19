@@ -532,6 +532,12 @@ body {
   padding-top: 69px;
   padding-bottom: 164px;
 }
+@media screen and (min-width: 1050px) {
+  .clients_say {
+    padding-top: 80px;
+    padding-bottom: 113px;
+  }
+}
 
 .title_clients {
   color: #FFFFFF;
@@ -544,6 +550,13 @@ body {
   margin-bottom: 60px;
   color: #FFFFFF;
 }
+@media screen and (min-width: 1050px) {
+  .text_clients {
+    width: 430px;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+}
 
 .cards_client {
   border: 1px solid transparent;
@@ -551,6 +564,13 @@ body {
   padding: 30px 82px;
   margin-bottom: 30px;
   position: relative;
+}
+@media screen and (min-width: 1050px) {
+  .cards_client {
+    width: 460px;
+    padding: 30px 60px;
+    margin-bottom: 30;
+  }
 }
 
 .name_clients {
@@ -582,6 +602,11 @@ body {
   top: 28px;
   left: -25px;
   border-radius: 50%;
+}
+@media screen and (min-width: 1050px) {
+  .client_img {
+    left: -75px;
+  }
 }
 
 .our_lawyer {
