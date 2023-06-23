@@ -2,6 +2,11 @@
     background-color:$white-background ;
     padding-bottom: 127px;
 }
+
+.card_conection{
+    display: flex;
+   
+}
 .connection_img {
     width: 330px;
     
@@ -26,6 +31,7 @@
 }
 .input_wrap {
     margin-bottom: 12px;
+    
 
     &:last-of-type{
         margin-bottom: 40px;
