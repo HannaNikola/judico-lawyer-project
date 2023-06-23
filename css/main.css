@@ -65,14 +65,17 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1470px;
-  width: 414px;
-  padding: 0 42px 0 42px;
-  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  margin: auto;
 }
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 414px) {
   .container {
-    width: 1130px;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1470px) {
+  .container {
+    width: 1080px;
   }
 }
 
