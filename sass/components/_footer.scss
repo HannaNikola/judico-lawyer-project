@@ -2,18 +2,25 @@
     padding-top: 80px;
     padding-bottom: 57px;
     background-color:$second-background ;
+
+    @media screen and (min-width:1470px){
+    padding: 80px 58px;
+      
+    }
 }
    
 .conteiner_footer {
-@media screen and (min-width:1050px){
+@media screen and (min-width:1470px){
     display: flex;
+   
+   
     
 }
 }
 .wrap_block1{
-    @media screen and (min-width:1050px){
+    @media screen and (min-width:1470px){
     margin-right: 73px;
-    margin-left: 58px;
+     margin-left: 58px;
     
     }
 }
@@ -42,7 +49,7 @@
 }
 
 .wrap_block2 {
-    @media screen and (min-width:1050px) {
+    @media screen and (min-width:1470px) {
         margin-right: 98px;
     }
 }
@@ -57,14 +64,14 @@
 }
 .list_box{
     margin-bottom: 30px;
-    @media screen and (min-width:1050px){
+    @media screen and (min-width:1470px){
         margin-bottom: 0px;
     }
 
 }
 
 .wrap_block3 {
-    @media screen and (min-width:1050px) {
+    @media screen and (min-width:1470px) {
         margin-right: 134px;
     }
 }

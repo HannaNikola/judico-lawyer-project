@@ -2,8 +2,8 @@
     background-color:$second-background ;
      padding-top: 100px;
      padding-bottom: 207px;
-    @media screen and (min-width:1050px){
-        padding-bottom: 100px;
+    @media screen and (min-width:1470px){
+        padding-bottom: 143px;
     }
      
 }
@@ -11,7 +11,7 @@
 .title_about{
     text-align: center;
     margin-bottom: 10px;
-    @media screen and (min-width:1050px){
+    @media screen and (min-width:1470px){
         margin-bottom: 15px;
     }
 }
@@ -20,20 +20,32 @@
     text-align: center;
     margin: auto;
     margin-bottom: 100px;
-    @media screen and (min-width:1050px){
+    @media screen and (min-width:1470px){
         width: 468px;
+        
     }
 }
 .img_wrap_about{
-    @media screen and (min-width:1050px){
+   
+@media screen and (min-width:1470px){
         display: flex;
+        
     }
+}
+
+.img_about{
+    width: 333px;
+
+    @media screen and (min-width:1470px){
+        width: 597px;
+    }
+
 }
 .text_wrap_about{
     display: flex;
     flex-direction: column;
     width: 325px;
-    @media screen and (min-width:1050px){
+    @media screen and (min-width:1470px){
         margin-left: 120px;
     }
     

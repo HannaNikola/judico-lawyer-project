@@ -1,25 +1,54 @@
 .conection{
     background-color:$white-background ;
     padding-bottom: 127px;
+
+    @media screen and (min-width:1470px){
+    padding-bottom: 137px;   
+ }
 }
 
 .card_conection{
-    display: flex;
+    @media screen and (min-width:1470px){
+        display: flex;
+        width: 1052px ;
+         
+        
+    }
+    
    
 }
 .connection_img {
     width: 330px;
+
+    @media screen and (min-width:1470px){
+        width: 364px;
+    }
     
 }
 .wrap_img_conect {
     margin-bottom: 40px;
+    @media screen and (min-width:1470px){
+        margin-bottom: 0px;
+        
+    }
+}
+
+
+// form  + lable
+.wrap_block_input {
+    width: 668px;
+    padding: 40px 50px;
+
 }
 
 .title_conect {
     width: 267px;
     margin-bottom: 40px;
+
+    @media screen and (min-width:1470px){
+        width: 579px;
+    }
 }
-// form  + lable
 .input_conect{
     border: none;
     border: 1px solid #BDBDBD;

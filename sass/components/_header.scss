@@ -2,18 +2,20 @@
     background-color:transparent;
     padding-top: 36px;
     padding-bottom: 98px;
-    @media screen and (min-width:1050px){
-    padding-top: 23px;
-     padding-bottom: 23px;
+    margin: auto;
+
+@media screen and (min-width:1470px){
+     padding-bottom: 36px;
    
     
 }
 }
 
 .container_head{
-    @media screen and (min-width:1050px){
+    @media screen and (min-width:1470px){
         display: flex;
         align-items: baseline;
+        
         
     }
 }
@@ -23,10 +25,11 @@
      color: $text-color ;
     font-family: Martel;
     margin-bottom: 96px;
-    @media screen and (min-width:1050px) {
+    @media screen and (min-width:1470px) {
             
             margin-bottom: 0px;
              margin-right: 147px;
+              margin-left: 100px;
         }
 
 }
@@ -35,7 +38,7 @@
    @include font(400, 30px, 1.5);
     font-family: Open Sans;
     color: $light-text-color;
-   @media screen and (min-width:1050px) {
+@media screen and (min-width:1470px) {
         
         display: flex;
         @include font(600, 14px, 1.7);
@@ -52,8 +55,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media screen and (min-width:1050px) {
-            width: 1050px;
+    @media screen and (min-width:1470px) {
+            
     display: flex;
     flex-direction: row;
     

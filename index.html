@@ -80,15 +80,17 @@
         </p>
         
         <div class="img_wrap_about">
+          <div class="img_about">
         <picture>
+          <source srcset="./images/desktop/desktop-about-1x.jpg,
+                 ./images/desktop/desktop-about-2x.jpg" media="(min-width: 1470)">
+
           <source srcset="./images/mobail/mobail-1x-about.jpg,
                   ./images/mobail/mobail-2x-about.jpg "
-                  media="(max-width: 444px)">
-        
-        
-        <img class="about_picture" src="./images/mobail/mobail-1x-about.jpg" alt="employe"/>
+                  media="(min-width: 414px)">
+       <img class="about_picture" src="./images/mobail/mobail-1x-about.jpg" alt="employe"/>
         </picture>
-        
+        </div>
         <div class="text_wrap_about">
         <h2 class="title secon_title_about">Most trusted in our field</h2>
         <p class="second_text_about">
@@ -290,6 +292,8 @@
         </div>
         
         <picture class="content_img">
+          <source  srcset="./images/desktop/world-desktop-1x.png,
+          ./images/desktop/world-desktop-2x.png" media="(min-width: 1470px)">
           <source srcset="./images/mobail/map-mobail-1x.png,
           ./images/mobail/map-mobail-2x.png"
             media="(max-width: 444px)">
@@ -304,6 +308,9 @@
         <div class = "card_conection">
         <div class="wrap_img_conect">
         <picture >
+          <source srcset="./images/desktop/connect-desktop-1x.png,
+          ./images/desktop/connect-desktop-2x.png" media="(min-width: 1470px)">
+
           <source srcset="./images/mobail/conect-mobail-1x.jpg,
           ./images/mobail/conect-mobail-2x.jpg"
           media="(max-width: 444px)">
@@ -311,6 +318,7 @@
         </picture>
         </div>
         <!-- <div class="input_wrap"> -->
+          <div class="wrap_block_input">
         <h2 class="title title_conect">Request A Free Consultation</h2>
         <form action="">
             <div class="input_wrap">
@@ -343,6 +351,7 @@
         </div>
           <button class="button_conect" type="submit">Book Appointment</button>
         </form>
+      </div>
       </div>
       </div>
     </section>
